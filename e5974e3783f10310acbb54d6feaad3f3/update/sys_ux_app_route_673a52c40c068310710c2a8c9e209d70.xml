@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Food Supply Chain Application App Config">ef3a52c495068310ea23e4a9c44d3a29</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Attachments</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record Page(request)">6b3a52c4a1068310eec7f93d83642671</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_req_att</route_type>
+        <screen_type display_value="Attachments">733a52c40906831018beddae511da572</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 10:31:48</sys_created_on>
+        <sys_id>673a52c40c068310710c2a8c9e209d70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachments</sys_name>
+        <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+        <sys_update_name>sys_ux_app_route_673a52c40c068310710c2a8c9e209d70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:31:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=673a52c40c068310710c2a8c9e209d70"/>
+</record_update>

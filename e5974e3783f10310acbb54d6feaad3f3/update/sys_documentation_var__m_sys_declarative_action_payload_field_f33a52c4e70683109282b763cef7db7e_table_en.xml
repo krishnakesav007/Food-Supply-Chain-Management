@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="table" label="table" language="en" table="var__m_sys_declarative_action_payload_field_f33a52c4e70683109282b763cef7db7e">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <help/>
+            <hint/>
+            <label>table</label>
+            <language>en</language>
+            <name>var__m_sys_declarative_action_payload_field_f33a52c4e70683109282b763cef7db7e</name>
+            <plural>table</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 10:31:47</sys_created_on>
+            <sys_id>fb3a52c4f20683108c20876eb5545c7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>table</sys_name>
+            <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_declarative_action_payload_field_f33a52c4e70683109282b763cef7db7e_table_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 10:31:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

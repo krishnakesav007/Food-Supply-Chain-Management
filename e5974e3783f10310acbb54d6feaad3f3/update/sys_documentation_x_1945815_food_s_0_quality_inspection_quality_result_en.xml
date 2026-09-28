@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="quality_result" label="Quality Result" language="en" table="x_1945815_food_s_0_quality_inspection">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quality_result</element>
+            <help/>
+            <hint/>
+            <label>Quality Result</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_quality_inspection</name>
+            <plural>Quality Results</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 12:44:26</sys_created_on>
+            <sys_id>c7bb3a12838ec350acbb54d6feaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quality Result</sys_name>
+            <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+            <sys_update_name>sys_documentation_x_1945815_food_s_0_quality_inspection_quality_result_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 12:44:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

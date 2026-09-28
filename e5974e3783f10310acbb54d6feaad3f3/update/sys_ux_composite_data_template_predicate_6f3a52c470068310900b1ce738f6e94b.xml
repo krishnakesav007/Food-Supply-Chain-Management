@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,state,number</field_list>
+        <name>My Request - task predicate</name>
+        <order/>
+        <predicate_bundle display_value="My request - task bundle">633a52c46f068310d92df95578df6d50</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 10:31:47</sys_created_on>
+        <sys_id>6f3a52c470068310900b1ce738f6e94b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Request - task predicate</sys_name>
+        <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_6f3a52c470068310900b1ce738f6e94b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:31:47</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="Item produced template">673a52c45e06831084a459ce7097cc4e</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

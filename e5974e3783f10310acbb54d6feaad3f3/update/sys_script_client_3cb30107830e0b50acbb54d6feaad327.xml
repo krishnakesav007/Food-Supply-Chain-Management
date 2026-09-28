@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>email validation</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   var email = g_form.getValue('email');
+   var ex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+   if(!ex.test(email)){
+	g_form.showFieldMsg('email','Please enter the valid email address','error');
+	return false;
+   }
+   return true;
+
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-17 12:21:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3cb30107830e0b50acbb54d6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+        <sys_update_name>sys_script_client_3cb30107830e0b50acbb54d6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-17 12:21:05</sys_updated_on>
+        <table>x_1945815_food_s_0_supplier</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

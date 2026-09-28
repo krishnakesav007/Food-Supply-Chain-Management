@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Quality Inspection">25babe5e834ec350acbb54d6feaad364</application>
+        <filter/>
+        <name>Quality Inspections</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1945815_food_s_0.quality_inspection_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-15 12:39:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25babe5e834ec350acbb54d6feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quality Inspections</sys_name>
+        <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+        <sys_update_name>sys_ui_module_25babe5e834ec350acbb54d6feaad368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-15 12:39:57</sys_updated_on>
+        <table>x_1945815_food_s_0_quality_inspection</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

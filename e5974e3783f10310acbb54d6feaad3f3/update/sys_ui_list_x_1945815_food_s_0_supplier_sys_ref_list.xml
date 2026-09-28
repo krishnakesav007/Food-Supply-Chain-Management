@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1945815_food_s_0_supplier" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>supplier_name</element>
+            <list_id display_value="x_1945815_food_s_0_supplier" element="NULL" name="x_1945815_food_s_0_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="08ab8051791232108bb291bde809c9c4">1de1586e830a0750acbb54d6feaad3ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 19:00:52</sys_created_on>
+            <sys_id>d9e1986e830a0750acbb54d6feaad300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 19:00:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1945815_food_s_0_supplier" element="NULL" name="x_1945815_food_s_0_supplier" parent="NULL" relationship="NULL" sys_domain="global" view="08ab8051791232108bb291bde809c9c4">1de1586e830a0750acbb54d6feaad3ff</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 19:00:52</sys_created_on>
+            <sys_id>51e1986e830a0750acbb54d6feaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 19:00:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1945815_food_s_0_supplier</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 19:00:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1de1586e830a0750acbb54d6feaad3ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1945815_food_s_0_supplier</sys_name>
+            <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+            <sys_update_name>sys_ui_list_x_1945815_food_s_0_supplier_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 19:00:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">08ab8051791232108bb291bde809c9c4</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

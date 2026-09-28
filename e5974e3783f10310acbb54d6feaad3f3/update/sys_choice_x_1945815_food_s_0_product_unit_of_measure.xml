@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="unit_of_measure" table="x_1945815_food_s_0_product" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>unit_of_measure</element>
+            <name>x_1945815_food_s_0_product</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:55:40</sys_created_on>
+            <sys_id>38903696830ec350acbb54d6feaad3c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>unit_of_measure</sys_name>
+            <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+            <sys_update_name>sys_choice_x_1945815_food_s_0_product_unit_of_measure</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:55:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gram</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:55:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7090761a830ec350acbb54d6feaad322</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:56:08</sys_updated_on>
+            <value>grams</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kg</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:55:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af803696830ec350acbb54d6feaad3c6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:55:47</sys_updated_on>
+            <value>kg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Millilitre</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:56:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dda0361a830ec350acbb54d6feaad306</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:56:49</sys_updated_on>
+            <value>millilitre</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Litre</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:56:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ec03e1a830ec350acbb54d6feaad315</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:57:06</sys_updated_on>
+            <value>litre</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pack</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:57:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abd0be1a830ec350acbb54d6feaad317</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:57:24</sys_updated_on>
+            <value>pack</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bottle</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e0325a830ec350acbb54d6feaad344</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:57:41</sys_updated_on>
+            <value>bottle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:57:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c01b25a830ec350acbb54d6feaad3e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:58:00</sys_updated_on>
+            <value>box</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>unit_of_measure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Piece</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_product</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 11:58:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd11365a830ec350acbb54d6feaad31e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 11:58:18</sys_updated_on>
+            <value>piece</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
