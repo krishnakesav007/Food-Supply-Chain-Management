@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>e+ECPWYUz2OwGm6efXensBMVEhx+BMtfsD6+cfoGyXs=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.distribution_user</name>

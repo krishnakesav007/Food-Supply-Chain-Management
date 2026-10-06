@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Responsibilities:  View dashboards Monitor KPIs View supplier risk View recall reports  Access:  Read-only Dashboards Reports Performance Analytics</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>kdt/399Jf+gNc6QDRRy5ragxJHW3h8g+9N/uHEjwaXs=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.executive</name>

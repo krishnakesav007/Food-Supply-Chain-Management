@@ -9,7 +9,7 @@
         <name>Order success</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent display_value="Portal App Shell (Deprecated)">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>order_success</route_type>
         <screen_type display_value="Order success">633a52c48a0683106d87d75db4ca4069</screen_type>

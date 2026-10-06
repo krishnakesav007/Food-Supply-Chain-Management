@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="unit_of_measure" table="x_1945815_food_s_0_product">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -39,6 +39,7 @@
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,7 +53,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-15 11:55:02</sys_created_on>
-        <sys_id>37503ed6830ec350acbb54d6feaad3d4</sys_id>
         <sys_name>x_1945815_food_s_0_product</sys_name>
         <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
         <sys_policy/>
@@ -62,10 +62,6 @@
         <sys_updated_on>2026-07-15 11:55:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
-        <u_emp_id/>
-        <u_emp_name/>
-        <u_employee_id/>
-        <u_phone_no/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

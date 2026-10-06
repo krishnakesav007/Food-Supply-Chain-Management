@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>product_name</element>
-            <list_id display_value="x_1945815_food_s_0_product" element="NULL" name="x_1945815_food_s_0_product" parent="NULL" relationship="NULL" sys_domain="global" view="08ab8051791232108bb291bde809c9c4">3f9cc8be83868750acbb54d6feaad369</list_id>
+            <list_id display_value="x_1945815_food_s_0_product" element="NULL" name="x_1945815_food_s_0_product" parent="NULL" relationship="NULL" sys_domain="global" view="af3ba242183232108bb255f46a373a79">3f9cc8be83868750acbb54d6feaad369</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1945815_food_s_0_product" element="NULL" name="x_1945815_food_s_0_product" parent="NULL" relationship="NULL" sys_domain="global" view="08ab8051791232108bb291bde809c9c4">3f9cc8be83868750acbb54d6feaad369</list_id>
+            <list_id display_value="x_1945815_food_s_0_product" element="NULL" name="x_1945815_food_s_0_product" parent="NULL" relationship="NULL" sys_domain="global" view="af3ba242183232108bb255f46a373a79">3f9cc8be83868750acbb54d6feaad369</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-16 13:16:18</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">08ab8051791232108bb291bde809c9c4</view>
+            <view display_value="Reference List" name="sys_ref_list">af3ba242183232108bb255f46a373a79</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="60bc46c883828310acbb54d6feaad3ba" label="Supplier" max_length="40" name="x_1945815_food_s_0_supplier" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Risk Score[0-100]" max_length="40" name="risk_score" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Supplier ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+                <element inactive_on_update="false" label="Suspended" value="suspended"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Supplier Type" mandatory="true" max_length="40" name="supplier_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Distributor" value="distributor"/>
+                <element inactive_on_update="false" label="Farmer" value="farmer"/>
+                <element inactive_on_update="false" label="Manufacturer" value="manufacturer"/>
+                <element inactive_on_update="false" label="Cold Storage Partner" value="cold storage partner"/>
+                <element inactive_on_update="false" label="Vendor" value="vendor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk Level" mandatory="true" max_length="40" name="risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+            </choice>
+        </element>
+        <element default="+91 " label="Phone Number" mandatory="true" max_length="14" name="phone_number" type="string"/>
+        <element label="Contact Person" mandatory="true" max_length="40" name="contact_person" type="string"/>
+        <element display="true" label="Supplier Name" mandatory="true" max_length="40" name="supplier_name" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Address" max_length="100" name="address" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal_input"/>
+    </element>
+</database>

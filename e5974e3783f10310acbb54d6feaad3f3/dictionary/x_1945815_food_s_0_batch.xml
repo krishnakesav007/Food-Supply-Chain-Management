@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e15729a830ec350acbb54d6feaad32c" label="Batch" max_length="40" name="x_1945815_food_s_0_batch" type="collection">
+        <element label="Remarks" max_length="400" name="remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Batch Status" mandatory="true" max_length="40" name="batch_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Under Inspection" sequence="20" value="under inspection"/>
+                <element inactive_on_update="false" label="Created" sequence="10" value="created"/>
+                <element inactive_on_update="false" label="Blocked" sequence="50" value="blocked"/>
+                <element inactive_on_update="false" label="Recalled" sequence="60" value="recalled"/>
+                <element inactive_on_update="false" label="Ready for Distribution" sequence="40" value="ready for distribution"/>
+                <element inactive_on_update="false" label="Approved" sequence="30" value="approved"/>
+                <element inactive_on_update="false" label="Expired" sequence="70" value="expired"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Batch Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Farm" mandatory="true" max_length="32" name="farm" reference="x_1945815_food_s_0_farm" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit of Measure" mandatory="true" max_length="40" name="unit_of_measure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Millilitre" sequence="30" value="millilitre"/>
+                <element inactive_on_update="false" label="Liter" sequence="29" value="liter"/>
+                <element inactive_on_update="false" label="Kg" sequence="20" value="kg"/>
+                <element inactive_on_update="false" label="Bottle" sequence="50" value="bottle"/>
+                <element inactive_on_update="false" label="Piece" sequence="70" value="piece"/>
+                <element inactive_on_update="false" label="Box" sequence="60" value="box"/>
+                <element inactive_on_update="false" label="Gram" sequence="10" value="gram"/>
+                <element inactive_on_update="false" label="Pack" sequence="40" value="pack"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Manufacturing Date" mandatory="true" max_length="40" name="manufacturing_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supplier" mandatory="true" max_length="32" name="supplier" reference="x_1945815_food_s_0_supplier" type="reference"/>
+        <element label="Expiry Date" mandatory="true" max_length="40" name="expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Product" mandatory="true" max_length="32" name="product" reference="x_1945815_food_s_0_product" type="reference"/>
+        <index name="index">
+            <element name="farm"/>
+        </index>
+        <index name="index2">
+            <element name="product"/>
+        </index>
+        <index name="index3">
+            <element name="supplier"/>
+        </index>
+    </element>
+</database>

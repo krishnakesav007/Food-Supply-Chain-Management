@@ -338,6 +338,7 @@
     "type" : "CLIENT_SCRIPT"
   } ]
 }</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
         <layout>{
   "default" : {
     "children" : null,
@@ -391,6 +392,7 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
+        <required_sys_props/>
         <required_translations>[ {
   "message" : "Expect to hear from a team member soon.",
   "comment" : ""

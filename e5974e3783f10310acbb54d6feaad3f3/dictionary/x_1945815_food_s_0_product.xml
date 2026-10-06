@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e88e6ad2830ec350acbb54d6feaad38f" label="Product" max_length="40" name="x_1945815_food_s_0_product" type="collection">
+        <element display="true" label="Product Name" mandatory="true" max_length="50" name="product_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Product Category" mandatory="true" max_length="40" name="product_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Frozen Foods" sequence="50" value="frozen foods"/>
+                <element inactive_on_update="false" label="Vegetables" sequence="30" value="vegetables"/>
+                <element inactive_on_update="false" label="Bakery" sequence="60" value="bakery"/>
+                <element inactive_on_update="false" label="Packaged Foods" sequence="90" value="packaged food"/>
+                <element inactive_on_update="false" label="Meat &amp; Poultry" sequence="70" value="meat&amp;poultry"/>
+                <element inactive_on_update="false" label="Seafood" sequence="80" value="seafood"/>
+                <element inactive_on_update="false" label="Beverages" sequence="40" value="beverages"/>
+                <element inactive_on_update="false" label="Dairy Products" sequence="10" value="dairy products"/>
+                <element inactive_on_update="false" label="Fruits" sequence="20" value="fruits"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit of Measure" max_length="40" name="unit_of_measure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Box" sequence="15" value="box"/>
+                <element inactive_on_update="false" label="Litre" sequence="12" value="litre"/>
+                <element inactive_on_update="false" label="Gram" sequence="9" value="grams"/>
+                <element inactive_on_update="false" label="Bottle" sequence="14" value="bottle"/>
+                <element inactive_on_update="false" label="Pack" sequence="13" value="pack"/>
+                <element inactive_on_update="false" label="Kg" sequence="10" value="kg"/>
+                <element inactive_on_update="false" label="Piece" sequence="16" value="piece"/>
+                <element inactive_on_update="false" label="Millilitre" sequence="11" value="millilitre"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="10" value="active"/>
+                <element inactive_on_update="false" label="Inactive" sequence="20" value="inactive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Shelf Life (Days)" mandatory="true" max_length="3" name="shelf_life_days" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Product Image" max_length="40" name="product_image" type="user_image"/>
+        <element label="Description" max_length="100" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Product ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+    </element>
+</database>

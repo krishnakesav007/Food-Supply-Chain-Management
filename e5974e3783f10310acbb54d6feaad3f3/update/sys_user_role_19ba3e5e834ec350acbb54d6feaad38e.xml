@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>5A20/F5xK8QqnoBijXEKh57APfgEGFyHzd4bidrPGM4=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.quality_inspection_user</name>

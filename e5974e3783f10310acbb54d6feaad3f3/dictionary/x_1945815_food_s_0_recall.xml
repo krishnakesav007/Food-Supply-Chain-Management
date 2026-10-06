@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d99a5bde83420750acbb54d6feaad32a" label="Recall" max_length="40" name="x_1945815_food_s_0_recall" type="collection">
+        <element label="Remarks" max_length="50" name="remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recall Status" mandatory="true" max_length="40" name="recall_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="30" value="approved"/>
+                <element inactive_on_update="false" label="Completed" sequence="50" value="completed"/>
+                <element inactive_on_update="false" label="Open" sequence="10" value="open"/>
+                <element inactive_on_update="false" label="Under Investigation" sequence="20" value="under investigation"/>
+                <element inactive_on_update="false" label="In Progress" sequence="40" value="in progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="60" value="canclled"/>
+            </choice>
+        </element>
+        <element label="Recall Date" mandatory="true" max_length="40" name="recall_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recall Reason" mandatory="true" max_length="40" name="recall_reason" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Packaging Defect" sequence="40" value="packaging defect"/>
+                <element inactive_on_update="false" label="customer Complaint" sequence="60" value="customer complait"/>
+                <element inactive_on_update="false" label="Quality Failure" sequence="10" value="quality failure"/>
+                <element inactive_on_update="false" label="Expired Product" sequence="50" value="expired products"/>
+                <element inactive_on_update="false" label="Regulatory Compliance" sequence="70" value="regulatory compliance"/>
+                <element inactive_on_update="false" label="Temperature Violation" sequence="20" value="temperature violation"/>
+                <element inactive_on_update="false" label="Other" sequence="80" value="other"/>
+                <element inactive_on_update="false" label="Contamination" sequence="30" value="contamination"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Affected Batch" mandatory="true" max_length="32" name="affected_batch" reference="x_1945815_food_s_0_batch" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Created By" mandatory="true" max_length="32" name="created_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Recall Priority" mandatory="true" max_length="40" name="recall_priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="40" value="critical"/>
+                <element inactive_on_update="false" label="High" sequence="30" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="20" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="10" value="low"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Recall Number" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <index name="index">
+            <element name="affected_batch"/>
+        </index>
+        <index name="index2">
+            <element name="created_by"/>
+        </index>
+    </element>
+</database>

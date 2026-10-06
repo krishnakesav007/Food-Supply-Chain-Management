@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Responsibilities:  Dispatch products Update shipment details Track deliveries  Access:  Distribution table Batch</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>VrWoXK1lG8V1JkwR85+DndlgZWpTMFlAHzNBtAA0mXU=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.logistics manager</name>

@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Responsibilities:  Receive shipments Confirm stock arrival Receive recall notifications  Access:  Distribution (Read) Recall (Read)</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>sR07xD4JKdNEGsZKb63xjfbjCjhVoORHDH4EzULRxNA=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.retail manager</name>

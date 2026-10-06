@@ -35,6 +35,8 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
+        <interaction/>
+        <interaction_input_map/>
         <label>Reject</label>
         <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
         <model_conditions/>

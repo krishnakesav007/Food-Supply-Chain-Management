@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Responsibilities:  Audit suppliers Verify certifications Generate compliance reports  Access:  Supplier Inspection Reports</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>op44Eyj119uflWhf2ZzC9IcwHCJofw+07HO8d4bfyS0=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.compliance officer</name>

@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_1945815_food_s_0.cold_chain_log_user</roles>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-15 14:14:51</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>Cold Chain Logs</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name/>
     </sys_app_module>

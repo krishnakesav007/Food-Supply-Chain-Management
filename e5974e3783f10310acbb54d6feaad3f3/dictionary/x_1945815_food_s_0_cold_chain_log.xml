@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f350971a83020750acbb54d6feaad3b6" label="Cold Chain Log" max_length="40" name="x_1945815_food_s_0_cold_chain_log" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Temperature (°C)" mandatory="true" max_length="20" name="temperature_c" type="decimal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Log ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Sensor ID" max_length="20" name="sensor_id" type="string"/>
+        <element label="Warehouse" mandatory="true" max_length="100" name="warehouse" type="string"/>
+        <element label="Remarks" max_length="100" name="remarks" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Humidity (%)" mandatory="true" max_length="20" name="humidity" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Storage Status" mandatory="true" max_length="40" name="storage_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="10" value="normal"/>
+                <element inactive_on_update="false" label="Warning" sequence="20" value="warning"/>
+                <element inactive_on_update="false" label="Critical" sequence="30" value="critical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Batch" mandatory="true" max_length="32" name="batch" reference="x_1945815_food_s_0_batch" type="reference"/>
+        <element label="Recorded Date &amp; Time" mandatory="true" max_length="40" name="recorded_date_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="batch"/>
+        </index>
+    </element>
+</database>

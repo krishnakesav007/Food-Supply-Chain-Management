@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>This is usually the person who initiates recalls.  Responsibilities:  Monitor food safety Create recalls Investigate incidents Approve corrective actions  Access:  Recall Incident Inspection Supplier</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>98CWkr8CyCYpQi0QjOo0GtalxOBr42Sl40XBEbHSwxk=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.food safety officer</name>

@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>DefaultResponsibilities:  Manage all records Configure application Manage users and roles View all dashboards Manage recalls  Permissions:  Full CRUD (Create, Read, Update, Delete) on all tables admin role</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>bPUxet+lbylzxE7uORuQGH+HK0zvjFiprYAnueSCnSE=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.food_supply_chain_admin</name>

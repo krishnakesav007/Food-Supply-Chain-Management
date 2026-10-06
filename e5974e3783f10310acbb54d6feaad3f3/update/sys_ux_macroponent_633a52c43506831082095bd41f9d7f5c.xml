@@ -532,6 +532,7 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{ }</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
         <layout>{
   "default" : {
     "children" : null,
@@ -549,6 +550,7 @@
         <name>Security &amp; sign-in</name>
         <output_prop_mapping/>
         <props>[ ]</props>
+        <required_sys_props/>
         <required_translations>[ {
   "message" : "&lt;p&gt;&lt;span style=\"font-size: 12pt;\"&gt;Dowload an authenticator app that supports Time Based One-Time Password(TOTP) on your mobile device.&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""

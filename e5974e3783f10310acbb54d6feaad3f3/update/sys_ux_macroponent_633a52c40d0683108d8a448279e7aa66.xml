@@ -1133,6 +1133,7 @@
     "type" : "CLIENT_SCRIPT"
   } ]
          }</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
         <layout>{&#13;
   "default" : {&#13;
     "children" : null,&#13;
@@ -1222,6 +1223,7 @@
   "selectable" : false,&#13;
   "disabled" : false&#13;
 } ]</props>
+        <required_sys_props/>
         <required_translations>[ {
   "message" : "Filters",
   "comment" : ""

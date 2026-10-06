@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>Of7WbgxHpAbOEHBeAiXkLywEImj1Nj/TzSBVh3p2JTA=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.cold_chain_log_user</name>

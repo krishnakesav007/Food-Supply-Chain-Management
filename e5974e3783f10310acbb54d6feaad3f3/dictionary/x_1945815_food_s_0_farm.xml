@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b698229683cac350acbb54d6feaad371" label="Farm" max_length="40" name="x_1945815_food_s_0_farm" type="collection">
+        <element label="Farm Address" max_length="100" name="farm_address" type="string"/>
+        <element label="Owner Name" mandatory="true" max_length="40" name="owner_name" type="string"/>
+        <element label="Farm Location" mandatory="true" max_length="40" name="farm_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Certification" mandatory="true" max_length="40" name="certification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Organic" sequence="20" value="organic"/>
+                <element inactive_on_update="false" label="HACCP" sequence="40" value="haccp"/>
+                <element inactive_on_update="false" label="ISO 22000" sequence="30" value="iso22000"/>
+                <element inactive_on_update="false" label="None" sequence="10" value="none"/>
+                <element inactive_on_update="false" label="FSSAI" sequence="50" value="fssai"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Farm Type" max_length="40" name="farm_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Poultry Farm" sequence="40" value="poultry farm"/>
+                <element inactive_on_update="false" label="Mixed Farm" sequence="60" value="mixed farm"/>
+                <element inactive_on_update="false" label="Dairy Farm" sequence="10" value="dairy farm"/>
+                <element inactive_on_update="false" label="Crop Farm" sequence="20" value="crop Farm"/>
+                <element inactive_on_update="false" label="Organic Farm" sequence="30" value="organic farm"/>
+                <element inactive_on_update="false" label="Fish Farm" sequence="50" value="fish farm"/>
+            </choice>
+        </element>
+        <element display="true" label="Farm Name" mandatory="true" max_length="100" name="farm_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supplier" mandatory="true" max_length="32" name="supplier" reference="x_1945815_food_s_0_supplier" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Farm ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="10" value="active"/>
+                <element inactive_on_update="false" label="Suspended" sequence="30" value="suspended"/>
+                <element inactive_on_update="false" label="Inactive" sequence="20" value="inactive"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="supplier"/>
+        </index>
+    </element>
+</database>

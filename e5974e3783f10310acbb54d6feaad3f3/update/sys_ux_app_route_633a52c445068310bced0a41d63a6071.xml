@@ -9,7 +9,7 @@
         <name>Record Page(task)</name>
         <optional_parameters>newId</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent display_value="Portal App Shell (Deprecated)">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>rec_task</route_type>
         <screen_type display_value="Record Page(task)">6b3a52c473068310191725e019bbe370</screen_type>

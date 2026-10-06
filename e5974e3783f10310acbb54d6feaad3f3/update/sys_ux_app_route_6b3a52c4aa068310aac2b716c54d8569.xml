@@ -9,7 +9,7 @@
         <name>Record Page(request)</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent display_value="Portal App Shell (Deprecated)">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>record_request</route_type>
         <screen_type display_value="Record Page(request)">6b3a52c430068310775cf828835bf66a</screen_type>

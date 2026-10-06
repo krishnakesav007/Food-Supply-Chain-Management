@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Responsibilities:  Register farms Create harvest records View batches produced  Access:  Farm table Batch table</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>6ZFUdfJ6aEMvWwfFsFUMEF1ugfk7qIg4CplZsvec9qg=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1945815_food_s_0.farm manager</name>

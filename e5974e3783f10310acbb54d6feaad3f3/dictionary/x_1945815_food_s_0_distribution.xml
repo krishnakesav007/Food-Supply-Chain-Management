@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae339f5e83020750acbb54d6feaad340" label="Distribution" max_length="40" name="x_1945815_food_s_0_distribution" type="collection">
+        <element label="Warehouse" mandatory="true" max_length="50" name="warehouse" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Batch" mandatory="true" max_length="32" name="batch" reference="x_1945815_food_s_0_batch" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity Shipped" mandatory="true" max_length="40" name="quantity_shipped" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transport Mode" mandatory="true" max_length="40" name="transport_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Ship" sequence="60" value="ship"/>
+                <element inactive_on_update="false" label="Air" sequence="50" value="air"/>
+                <element inactive_on_update="false" label="Refrigerated Truck" sequence="30" value="refrigerated truck"/>
+                <element inactive_on_update="false" label="Truck" sequence="10" value="truck"/>
+                <element inactive_on_update="false" label="Rail" sequence="40" value="rail"/>
+                <element inactive_on_update="false" label="Van" sequence="20" value="van"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Delivery Status" mandatory="true" max_length="40" name="delivery_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="60" value="cancelled"/>
+                <element inactive_on_update="false" label="Delivered" sequence="40" value="delivered"/>
+                <element inactive_on_update="false" label="Dispatched" sequence="20" value="dispatched"/>
+                <element inactive_on_update="false" label="Delayed" sequence="50" value="delayed"/>
+                <element inactive_on_update="false" label="In Transit" sequence="30" value="in transit"/>
+                <element inactive_on_update="false" label="Returned" sequence="70" value="returned"/>
+                <element inactive_on_update="false" label="Pending" sequence="10" value="pending"/>
+            </choice>
+        </element>
+        <element label="Expected Arrival Date" mandatory="true" max_length="40" name="expected_arrival_date" type="glide_date"/>
+        <element label="Retail Store" mandatory="true" max_length="40" name="retail_store" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Distributed ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element label="Actual Arrival Date" max_length="40" name="actual_arrival_date" type="glide_date"/>
+        <element label="Dispatch Date" max_length="40" name="dispatch_date" type="glide_date"/>
+        <index name="index">
+            <element name="batch"/>
+        </index>
+    </element>
+</database>

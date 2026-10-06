@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72793ada834ec350acbb54d6feaad385" label="Quality Inspection" max_length="40" name="x_1945815_food_s_0_quality_inspection" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Temperature (°C)" mandatory="true" max_length="20" name="temperature_c" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Status" mandatory="true" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="10" value="pending"/>
+                <element inactive_on_update="false" label="Approved" sequence="20" value="apprved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="30" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Inspection ID" max_length="40" name="number" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Inspector" mandatory="true" max_length="32" name="inspector" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Batch" mandatory="true" max_length="32" name="batch" reference="x_1945815_food_s_0_batch" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quality Result" mandatory="true" max_length="40" name="quality_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fail" sequence="20" value="fail"/>
+                <element inactive_on_update="false" label="Conditional Pass" sequence="30" value="conditional pass"/>
+                <element inactive_on_update="false" label="Pass" sequence="10" value="pass"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="batch"/>
+        </index>
+        <index name="index2">
+            <element name="inspector"/>
+        </index>
+    </element>
+</database>

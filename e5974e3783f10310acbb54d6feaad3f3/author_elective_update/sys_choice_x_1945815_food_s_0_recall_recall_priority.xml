@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recall_priority" table="x_1945815_food_s_0_recall" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recall_priority</element>
+            <name>x_1945815_food_s_0_recall</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 15:13:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recall_priority</sys_name>
+            <sys_package display_value="Food Supply Chain Application" source="x_1945815_food_s_0">e5974e3783f10310acbb54d6feaad3f3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Food Supply Chain Application">e5974e3783f10310acbb54d6feaad3f3</sys_scope>
+            <sys_update_name>sys_choice_x_1945815_food_s_0_recall_recall_priority</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 15:13:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recall_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_recall</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 15:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 15:13:17</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recall_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_recall</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 15:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 15:13:37</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recall_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_recall</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 15:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 15:13:55</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recall_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical</label>
+            <language>en</language>
+            <name>x_1945815_food_s_0_recall</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 15:14:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 15:14:14</sys_updated_on>
+            <value>critical</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
